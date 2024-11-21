@@ -18,7 +18,7 @@ const Footer = () => {
             <span>Dedicated to creating impactful solutions!</span>
           </Col>
           <Col md="4" className="footer-copywright">
-            <span>Copyright © {year}</span>
+            <span>Copyright © {year} </span>
             <img src={logo} className="img-fluid logo" alt="brand" />
           </Col>
           <Col md="4" className="footer-body">

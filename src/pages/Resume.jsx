@@ -4,15 +4,16 @@ import Button from "react-bootstrap/Button";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import Particle from '../components/Particle'
-import pdf from "../assets/Nainsi.pdf"
+// import pdf from "../assets/Nainsi.pdf"
+import pdf from "../assets/Nainsi_.pdf"
 
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import "react-pdf/dist/esm/Page/TextLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-const resumeLink = `https://drive.google.com/file/d/1598klb7jxBzweFxmXATp7WuAt2D6Mqu5/view?usp=drive_link`
-
+// const resumeLink = `https://drive.google.com/file/d/1598klb7jxBzweFxmXATp7WuAt2D6Mqu5/view?usp=drive_link`
+const resumeLink = `https://drive.google.com/file/d/1OMA6xydUxIKQaN1FHqrpuc7dBLif8jP6/view?usp=sharing`
 
 const Resume = () => {
   const [width, setWidth] = useState(1200);

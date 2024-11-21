@@ -24,7 +24,7 @@ const About = () => {
                  and I'm from <span className="yellow"> Ranchi, Jharkhand, India.</span>
                 <br />
                 <br />
-                I am currently a Full stack developer at Cyberium Inc Pune, Maharastra .
+                I am currently a Full stack developer at Jaipuria Institute of Management, New Delhi.
                 <br />
                 <br />
                   As a
